@@ -1,0 +1,21 @@
+
+.btn {
+    display: inline-flex;
+    padding: 8px 50px;
+    border-radius: 5px;
+}
+h3 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.btnAddToCard {
+    display: inline-flex;
+    padding: 8px 50px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.bgContactUs {
+    background-image: url('/src//images/Ecommerce\ checkout\ laptop-rafiki.svg');
+}

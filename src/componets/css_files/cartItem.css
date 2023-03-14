@@ -1,0 +1,120 @@
+/* Shopping Cart Container */
+
+.shop-cart {
+  align-items: center;
+  width: 600px;
+  height: 220px;
+  background-color: #F8F8F8;
+  border-radius: 2%;
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+.item-cart {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.details {
+  padding: 20px;
+}
+.cart-img {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: #6984ef 1px solid;
+}
+
+
+/* Cart Table Button */
+.cart-table .btn {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Cart Total */
+.cart-total {
+  font-size: 18px;
+  margin: 12px 8px;
+}
+
+/* Cart Total Label */
+.cart-total-label {
+  font-weight: bold;
+}
+
+/* Cart Checkout Button */
+.cart-checkout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Cart Checkout Button Styling */
+.cart-checkout .btn {
+  color: white;
+  border: none;
+  padding: 10px 76px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 0.4rem;
+}
+
+input[type="number"] {
+  width: 2.1rem;
+  text-align: center;
+  margin: 0 0.1rem;
+}
+
+.btn-plus {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-minus {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.2rem 0.7rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+  background-color: #666;
+}
+
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #4466f2 !important;
+  border-color: #4466f2 !important;
+}

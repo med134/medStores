@@ -1,0 +1,177 @@
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  height: 110px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-family: "Pacifico", cursive;
+  padding: 20px 60px;
+  color: #1300e1;
+  box-shadow: 0px 1px 5px 1px #bdbdbf;
+}
+.logo {
+  padding: 20px;
+}
+.logo img {
+  width: 42px;
+  cursor: pointer;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-flex;
+  line-height: 80px;
+  margin-left: 18px;
+}
+.active {
+  color: #000000;
+  font-size: 20px;
+}
+#nav-toggle {
+  position: absolute;
+  opacity: 0%;
+}
+nav .icon-burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+nav .icon-burger .line {
+  width: 30px;
+  height: 4px;
+  background-color: #1300e1;
+  margin: 6px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 415px) {
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icons {
+    margin-left: 50px;
+    right: 12%;
+  }
+  nav .logo {
+    font-size: 20px;
+    padding: 17px 0;
+    margin-left: -30px;
+  }
+  .cart_bank {
+    display: none;
+  }
+  .lang {
+    margin-right: 14px;
+  }
+  nav .links {
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    top: -100%;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    transition: all 0.7s ease;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  nav :checked ~ .links {
+    top: 17%;
+    width: 100%;
+  }
+  nav .icon-burger {
+    display: block;
+    margin-top: 12px;
+  }
+  .icon-burger .line {
+    height: 3px;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 416px) and (max-width: 768px) {
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icons {
+    margin-left: 50px;
+    right: 15%;
+  }
+  .cart_bank {
+    display: none;
+  }
+  nav .logo {
+    font-size: 30px;
+    padding: 17px 0;
+  }
+
+  nav .links {
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    top: -100%;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    transition: all 0.7s ease;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  nav ul li {
+    display: block;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  nav :checked ~ .links {
+    top: 17%;
+    width: 100%;
+  }
+  nav .icon-burger {
+    display: inline-block;
+    margin-top: 16px;
+  }
+
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+}
