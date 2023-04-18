@@ -11,6 +11,7 @@ module.exports = {
         whiteOne : '#F9F8F8',
         current : "#0A192F",
         productBg :"#f1f0fa",
+        
       },
     },
   },

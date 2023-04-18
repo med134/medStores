@@ -4,10 +4,12 @@ nav {
   height: 110px;
   display: inline-flex;
   justify-content: space-between;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
   padding: 20px 60px;
   color: #1300e1;
   box-shadow: 0px 1px 5px 1px #bdbdbf;
+
 }
 .logo {
   padding: 20px;
@@ -55,6 +57,7 @@ nav .icon-burger .line {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .icons {
@@ -100,7 +103,7 @@ nav .icon-burger .line {
   }
   nav .icon-burger {
     display: block;
-    margin-top: 12px;
+    margin-top: 15px;
   }
   .icon-burger .line {
     height: 3px;
@@ -162,7 +165,7 @@ nav .icon-burger .line {
   }
   nav .icon-burger {
     display: inline-block;
-    margin-top: 16px;
+    margin-top: 21px;
   }
 
   nav :checked ~ .icon-burger .line:nth-child(1) {

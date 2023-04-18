@@ -7,8 +7,8 @@
     "signIn":"Sign in to your account",
     "yourEmail":"your email",
     "password":"password",
-    "registration":"If Don’t have an account yet ? Sign up with Google or facebook",
-    "login":"Sign in",
+    "registration":"Sign In With Your private Email",
+    "login":"login",
     "SignOut":"Sign Out",
     "withGoogle":"continue with Google",
     "withFacebook":"continue with Facebook",
@@ -19,6 +19,7 @@
     "addSomeThings":"Add something to make me happy :)",
     "addProductToCart":"Add Some Product",
     "total":"Total",
+    "hello":"hi",
     "tax":"Shipping and taxes calculated at checkout",
     "Checkout":"checkout",
     "continue":"Continue shopping",
@@ -35,7 +36,13 @@
     "sent":"send",
     "name":"Full Name",
     "message":"message",
-    "welcome":"Welcome to our store website! We offer high-quality products. Enjoy stress-free shopping and feel free."
+    "welcome":"Welcome to our store website! We offer high-quality products. Enjoy stress-free shopping and feel free.",
+    "dec":"Discover Fantasy",
+    "promo1":"Attractive",
+    "promo2":"Offres",
+    "para":"Discover great offers on our store in various popular products  You can also request any product and we will be happy to provide it to you  Free delivery in all cities of Morocco"
+   
+
     
     
 }
