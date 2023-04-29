@@ -5,7 +5,7 @@ import AnimatePage from "../animation/AnimatePage";
 const Footer = () => {
   return (
     <AnimatePage>
-    <footer className="p-4 bg-slate-200 sm:p-6 dark:bg-gray-900 shadow-md">
+    <footer className="p-4 bg-slate-200 sm:p-6 dark:bg-gray-900 shadow-md mt-14">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a href="/*" className="flex items-center">

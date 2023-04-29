@@ -21,9 +21,8 @@ const cartSlice = createSlice({
       if (find >= 0) {
         state.cart[find].quantity += 1;
       } else {
-        state.cart.push(action.payload); 
+        state.cart.push(action.payload);
       }
-      toast.success("your product was added successfully");
     },
 
     getCartTotal: (state) => {
@@ -87,6 +86,12 @@ const cartSlice = createSlice({
         return item;
       });
     },
+    filterCategory: (state, action) => {
+      const result = state.items.filter((index) => {
+        return index.category === action.payload;
+      });
+      state.product = result;
+    },
   },
 });
 
@@ -98,7 +103,8 @@ export const {
   decreaseItemQuantity,
   productDetail,
   productIncrease,
-  productDecrease
+  productDecrease,
+  filterCategory,
 } = cartSlice.actions;
 
 export default cartSlice.reducer;

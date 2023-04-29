@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./css_files/Header.css";
 import Logo from "../images/logo.png";
 import { BsPersonPlusFill, BsPersonFill } from "react-icons/bs";
-import { FiSettings } from "react-icons/fi";
+import { FiSettings, FiSearch } from "react-icons/fi";
 import { RiShareForward2Line } from "react-icons/ri";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -63,6 +63,7 @@ function Header() {
             {t("headerContact")}
           </NavLink>
         </li>
+        
       </ul>
       <div className="icons font-bold flex mt-[21px] relative">
         <NavLink active="true" exact="true" className="hover:text-black">
@@ -81,7 +82,7 @@ function Header() {
               )}
             </button>
             {open ? (
-              <div className="absolute text-[18px] right-6 mt-[28px] z-50 w-48 h-70 p-2 bg-white rounded-2xl">
+              <div className="absolute text-[18px] right-6 mt-[28px] z-50 w-48 h-70 p-2 bg-white rounded-2xl font-['Cairo']">
                 <Link
                   to="/login"
                   className="inline-flex text-gray-600 hover:bg-grey-lighter"
@@ -93,7 +94,7 @@ function Header() {
                       to="/login"
                       className="flex px-2 py-2 text-gray-600 hover:bg-grey-lighter"
                     >
-                      login
+                      Login
                     </Link>
                   )}
                 </Link>

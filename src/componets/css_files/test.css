@@ -1,0 +1,19 @@
+.container1 {
+    @apply flex flex-row items-end;
+  }
+  
+  .button {
+    @apply h-8 w-8 rounded-full
+      text-black bg-gray-100
+      border-gray-200 border-2
+      hover:text-gray-200 hover:bg-blue-600 hover:text-sm
+      transition-all duration-200
+      z-10;
+  }
+  
+  .count {
+    @apply h-12 w-12 text-xl rounded-full
+      flex items-center justify-center
+      text-red-800 bg-slate-100
+      -mx-3;
+  }

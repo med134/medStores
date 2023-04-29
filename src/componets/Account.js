@@ -45,8 +45,8 @@ const Account = () => {
   };
 
   return (
-    <div className="p-8">
-      <div className="bg-white rounded overflow-hidden shadow-lg text-center">
+    <div className="p-8 font-['Cairo] ">
+      <div className="bg-white rounded overflow-hidden shadow-lg text-center font-['Cairo] ">
         <div className="bg-slate-200 text-gray-500 p-6">
           <div className="w-24 inline-flex">
             <img
@@ -61,7 +61,7 @@ const Account = () => {
         </div>
         <div className="border-b">
           <div className="pl-3">
-            <p className="text-xs font-medium text-gray-600 leading-none p-6 text-center tracking-wide">
+            <p className="text-sm font-medium text-gray-600 leading-none p-6 text-center tracking-wide">
               {t("welcome")}
             </p>
           </div>

@@ -4,7 +4,8 @@ nav {
   height: 110px;
   display: inline-flex;
   justify-content: space-between;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
   font-size: 20px;
   padding: 20px 60px;
   color: #1300e1;
@@ -103,7 +104,7 @@ nav .icon-burger .line {
   }
   nav .icon-burger {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .icon-burger .line {
     height: 3px;
@@ -148,7 +149,7 @@ nav .icon-burger .line {
     flex-direction: column;
     background-color: white;
     transition: all 0.7s ease;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.2);
   }
 
   nav ul li {
@@ -165,7 +166,7 @@ nav .icon-burger .line {
   }
   nav .icon-burger {
     display: inline-block;
-    margin-top: 21px;
+    margin-top: 30px;
   }
 
   nav :checked ~ .icon-burger .line:nth-child(1) {

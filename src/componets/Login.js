@@ -20,6 +20,8 @@ const Login = () => {
   const userEmail = useSelector(selectUserEmail);
   const pic = useSelector(selectUserPic);
 
+  /* Function SignIn with Google Account */
+
   const handelSignInGoogle = () => {
     signInWithPopup(auth, provider).then((data) => {
       dispatch(
@@ -32,7 +34,7 @@ const Login = () => {
     });
   };
  
-
+ /* Function SignIn with Facebook Account */
   const handelSignInWithFacebook = () => {
     signInWithPopup(auth, fProvider).then((data) => {
       dispatch(
@@ -48,7 +50,7 @@ const Login = () => {
   
 
   return (
-    <section className=" bg-gray-100 bg-gradient-to-br">
+    <section className=" bg-gray-100 bg-gradient-to-br font-['Cairo']">
       <AnimatePage>
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
           <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
@@ -91,7 +93,7 @@ const Login = () => {
                 </button>
               </div>
               <hr className="border-t mx-2 border-grey-light" />
-              <p className="text-[15px] font-semibold text-gray-800">
+              <p className="text-[17px] font-semibold text-gray-800">
                 {t("login")}
               </p>
               <form className="space-y-4 md:space-y-6" action="#">
